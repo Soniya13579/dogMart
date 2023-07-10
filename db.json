@@ -1,0 +1,25 @@
+{
+  "seller": [
+    {
+      "name": "Soniya",
+      "email": "soniya@seller.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "username": "soniya",
+      "password": "kamble",
+      "id": 2
+    },
+    {
+      "username": "soniya",
+      "password": "gade",
+      "id": 3
+    },
+    {
+      "username": "mom",
+      "password": "mom@123",
+      "id": 4
+    }
+  ]
+}
