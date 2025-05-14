@@ -10,6 +10,9 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { SellerComponent } from './seller/seller.component';
 import { SellerHomeComponent } from './seller-home/seller-home.component';
+import {MatCardModule} from '@angular/material/card';
+import { LoginComponent } from './login/login.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,13 +21,16 @@ import { SellerHomeComponent } from './seller-home/seller-home.component';
     HeaderComponent,
     HomeComponent,
     SellerComponent,
-    SellerHomeComponent
+    SellerHomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatCardModule,
+    ReactiveFormsModule
   ],
   providers: [CustPipePipe],
   bootstrap: [AppComponent]
